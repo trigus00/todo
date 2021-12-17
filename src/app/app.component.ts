@@ -30,7 +30,7 @@ export class AppComponent {
   addItem(description: string) {
     this.allItems.push({
       description,
-      done: false
+      done: false,
     });
   }
 
